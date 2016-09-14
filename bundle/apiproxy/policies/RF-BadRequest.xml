@@ -1,0 +1,18 @@
+<RaiseFault name='RF-BadRequest'>
+  <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
+  <FaultResponse>
+    <Set>
+      <Payload contentType='application/json'
+               variablePrefix='%' variableSuffix='#'><![CDATA[{
+  "error" : {
+    "message": "Use POST only. And you must pass the content-type header as 'application/xml'.",
+    "other-info": "This service returns JSON, and ignores the Accept header.",
+    "code" : 400.02
+  }
+}
+]]></Payload>
+      <StatusCode>400</StatusCode>
+      <ReasonPhrase>Bad Request</ReasonPhrase>
+    </Set>
+  </FaultResponse>
+</RaiseFault>

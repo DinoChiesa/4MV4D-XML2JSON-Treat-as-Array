@@ -1,0 +1,9 @@
+<XMLToJSON name="XMLToJSON-1">
+    <Options>
+        <RecognizeNull>true</RecognizeNull>
+        <TextNodeName>#text</TextNodeName>
+        <AttributePrefix>@</AttributePrefix>
+    </Options>
+    <OutputVariable>response</OutputVariable>
+    <Source>request</Source>
+</XMLToJSON>

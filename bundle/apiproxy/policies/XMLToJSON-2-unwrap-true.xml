@@ -1,0 +1,12 @@
+<XMLToJSON name="XMLToJSON-2-unwrap-true">
+    <Options>
+        <RecognizeNull>true</RecognizeNull>
+        <TextNodeName>#text</TextNodeName>
+        <AttributePrefix>@</AttributePrefix>
+        <TreatAsArray>
+            <Path unwrap="true">root/Item</Path>
+        </TreatAsArray>
+    </Options>
+    <OutputVariable>response</OutputVariable>
+    <Source>request</Source>
+</XMLToJSON>

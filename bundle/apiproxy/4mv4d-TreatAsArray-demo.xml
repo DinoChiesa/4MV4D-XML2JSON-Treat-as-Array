@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="4mv4d-TreatAsArray-demo">
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1452715334834</CreatedAt>
+    <CreatedBy>DChiesa@apigee.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>4mv4d-TreatAsArray-demo</DisplayName>
+    <LastModifiedAt>1473891041386</LastModifiedAt>
+    <LastModifiedBy>DChiesa@apigee.com</LastModifiedBy>
+    <Policies/>
+    <ProxyEndpoints>
+      <ProxyEndpoint>loopback-proxy</ProxyEndpoint>
+    </ProxyEndpoints>
+    <TargetServers/>
+    <TargetEndpoints/>
+    <validate>false</validate>
+</APIProxy>
